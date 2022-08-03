@@ -11,6 +11,7 @@ const {
     getUserById,
     getPostsByUser,
     getPostsByTagName,
+    getAllTags
 } = require("./index");
 
 const testDB = async () => {
