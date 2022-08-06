@@ -22,6 +22,8 @@ server.use('/api', apiRouter);
 const { client } = require('./db');
 client.connect();
 
+// server.get('/posts/:postId', showSinglePostPage);
+// server.get('/posts/edit', showEditPage);
 
 server.listen(PORT, () => {
     console.log(`The server is up on port ${PORT}`);
